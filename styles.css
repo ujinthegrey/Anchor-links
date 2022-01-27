@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background: #111;
+}
+
+div {
+    text-align: center;
+}
+
+#menu {
+    position: sticky;
+    top: 0px;
+    background: #111;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    min-height: 100px;
+    justify-content: center;
+}
+
+#menu div {
+    margin: 2em auto 0;
+    width: 96px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+#a-red:hover {
+    color: red;
+}
+#a-orange:hover {
+    color: orange;
+}
+#a-yellow:hover {
+    color: yellow;
+}
+#a-green:hover {
+    color: green;
+}
+#a-blue:hover {
+    color: blue;
+}
+#a-indigo:hover {
+    color: indigo;
+}
+#a-violet:hover {
+    color: violet;
+}
+
+#rainbow p {
+    padding-top: 30%;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#red {
+    background: red;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#orange {
+    background: orange;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#yellow {
+    background: yellow;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#green {
+    background: green;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#blue {
+    background: blue;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#indigo {
+    background: indigo;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#violet {
+    background: violet;
+    height: 100vh;
+    min-height: 400px;
+}
+
+#footer {
+    background: #111;
+    height: 20vh;
+    min-height: 100px;
+}
+
+#footer p {
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+.twisted {
+    transform: scale(0);
+    transition: 1s;
+}
